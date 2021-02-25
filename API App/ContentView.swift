@@ -38,7 +38,7 @@ struct ContentView: View {
     }
     
     func queryAPI() {
-        let apiKey = "?rapidapi-key="
+        let apiKey = "?rapidapi-key=0707fa5d6cmshc451d29c8c38c51p109c1fjsn18bb48cbef66"
         let query = "https://periodictable.p.rapidapi.com/\(apiKey)"
         if let url = URL(string: query) {
             if let data = try? Data(contentsOf: url) {
@@ -59,7 +59,10 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+            ContentView()
+        }
     }
 }
 

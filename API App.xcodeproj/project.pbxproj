@@ -13,6 +13,7 @@
 		3F1E9E0525E805060038BE87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E9E0425E805060038BE87 /* Preview Assets.xcassets */; };
 		3F1E9E1025E805060038BE87 /* API_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E9E0F25E805060038BE87 /* API_AppTests.swift */; };
 		3F1E9E1B25E805060038BE87 /* API_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E9E1A25E805060038BE87 /* API_AppUITests.swift */; };
+		3F1E9E2C25E84EB90038BE87 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E9E2B25E84EB90038BE87 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3F1E9E1625E805060038BE87 /* API AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1E9E1A25E805060038BE87 /* API_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_AppUITests.swift; sourceTree = "<group>"; };
 		3F1E9E1C25E805070038BE87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1E9E2B25E84EB90038BE87 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				3F1E9DFD25E805010038BE87 /* API_AppApp.swift */,
 				3F1E9DFF25E805010038BE87 /* ContentView.swift */,
 				3F1E9E0125E805060038BE87 /* Assets.xcassets */,
+				3F1E9E2B25E84EB90038BE87 /* SwiftyJSON.swift */,
 				3F1E9E0625E805060038BE87 /* Info.plist */,
 				3F1E9E0325E805060038BE87 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1E9E2C25E84EB90038BE87 /* SwiftyJSON.swift in Sources */,
 				3F1E9E0025E805010038BE87 /* ContentView.swift in Sources */,
 				3F1E9DFE25E805010038BE87 /* API_AppApp.swift in Sources */,
 			);
